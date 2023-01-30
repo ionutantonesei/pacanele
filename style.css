@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+:root{
+  --colors11: blue;
+  --colors12: green;
+  --colors13: yellow;
+  --colors21: orange;
+  --colors22: red;
+  --colors23: black;
+  --colors31: pink;
+  --colors32: gray;
+  --colors33: brown;
+}
+.ecran_pacanea{
+  display: grid;
+  grid-template-columns: [s11] 35% [s12] 35% [s13] 35%;
+  grid-template-rows: [s21] 35% [s22] 35% [s23] 35% [s31] 35% [s32] 35% [s33] 35%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  border: 2px dotted blue;
+}
+.simbol{
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 70%;
+  height: 70%;
+  border: 1px solid green;
+}
+/*#s11{
+
+}
+#s12{
+  
+}
+#s13{
+  
+}
+#s21{
+
+}
+#s22{
+  
+}
+#s23{
+  
+}
+#s31{
+  
+}
+#s32{
+  
+}
+#s33{
+  
+}*/
+.butoane{
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  height: 20%;
+  width: 40%;
+  border: 1px solid black;
+}
+.buton{
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  font-size: 5em;
+}
+img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.container_background{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}

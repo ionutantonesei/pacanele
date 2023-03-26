@@ -18,7 +18,7 @@ let miza = 1
 let increment = 1
 
 actiune.addEventListener("click",()=>{
-    if(sumaTotala<=miza){alert("Lipsa fonduri!");return}
+    if(sumaTotala<miza){alert("Lipsa fonduri!");return}
     sumaTotala-=miza
     afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
     let valoares11i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
@@ -41,10 +41,12 @@ actiune.addEventListener("click",()=>{
     s33i.setAttribute("src","resurse/"+valoares33i+".png")
 })
 cresteMiza.addEventListener("click",()=>{
+    if(miza>=sumaTotala){return}
     miza+=1
     afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
 })
 scadeMiza.addEventListener("click",()=>{
+    if(miza<=0){return}
     miza-=1
     afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
 })

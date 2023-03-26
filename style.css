@@ -94,6 +94,23 @@
   font-size: 1rem;
   border: 1px solid black;
 }
+#buton-creste-miza10{
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  height: 30%;
+  width: 10%;
+  font-size: 1rem;
+}
+#buton-scade-miza10{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  height: 30%;
+  width: 10%;
+  font-size: 1rem;
+  border: 1px solid black;
+}
 .buton{
   top: 0%;
   left: 0%;

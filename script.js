@@ -10,6 +10,8 @@ const es33 = document.getElementById("s33i")
 const actiune = document.getElementById("buton-start")
 const cresteMiza = document.getElementById("buton-creste-miza")
 const scadeMiza = document.getElementById("buton-scade-miza")
+const cresteMiza10 = document.getElementById("buton-creste-miza10")
+const scadeMiza10 = document.getElementById("buton-scade-miza10")
 const afisareSumaTotala = document.getElementById("afisareSumaTotala")
 const afisareSumaPariata = document.getElementById("afisareSumaPariata")
 const afisareLinii = document.getElementById("afisareLinii")
@@ -48,5 +50,16 @@ cresteMiza.addEventListener("click",()=>{
 scadeMiza.addEventListener("click",()=>{
     if(miza<=0){return}
     miza-=1
+    afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
+})
+
+cresteMiza10.addEventListener("click",()=>{
+    if(miza>=sumaTotala-9){return}
+    miza+=10
+    afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
+})
+scadeMiza10.addEventListener("click",()=>{
+    if(miza<=9){return}
+    miza-=10
     afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
 })

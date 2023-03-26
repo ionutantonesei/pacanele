@@ -7,9 +7,20 @@ const es23 = document.getElementById("s23i")
 const es31 = document.getElementById("s31i")
 const es32 = document.getElementById("s32i")
 const es33 = document.getElementById("s33i")
-const actiune = document.getElementById("buton1")
+const actiune = document.getElementById("buton-start")
+const cresteMiza = document.getElementById("buton-creste-miza")
+const scadeMiza = document.getElementById("buton-scade-miza")
+const afisareSumaTotala = document.getElementById("afisareSumaTotala")
+const afisareSumaPariata = document.getElementById("afisareSumaPariata")
+const afisareLinii = document.getElementById("afisareLinii")
+let sumaTotala = 100
+let miza = 1
+let increment = 1
 
 actiune.addEventListener("click",()=>{
+    if(sumaTotala<=miza){alert("Lipsa fonduri!");return}
+    sumaTotala-=miza
+    afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
     let valoares11i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
     s11i.setAttribute("src","resurse/"+valoares11i+".png")
     let valoares12i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
@@ -28,4 +39,12 @@ actiune.addEventListener("click",()=>{
     s32i.setAttribute("src","resurse/"+valoares32i+".png")
     let valoares33i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
     s33i.setAttribute("src","resurse/"+valoares33i+".png")
+})
+cresteMiza.addEventListener("click",()=>{
+    miza+=1
+    afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
+})
+scadeMiza.addEventListener("click",()=>{
+    miza-=1
+    afisareSumaPariata.innerHTML = "Suma pariata: " + miza + " RON"
 })

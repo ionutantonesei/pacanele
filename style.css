@@ -137,9 +137,41 @@ img{
   flex-direction: row;
   top: 10%;
   left: 5%;
-  height: 50%;
+  height: 80%;
   width: 20%;
   border: 1px solid red;
   font-size: 2rem;
   list-style-type: none;
+}
+.container-informatii{
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  height: 80%;
+  width: 15%;
+  border: 1px solid red;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.informatii-imagini{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 20%;
+}
+.informatii-valori{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 0%;
+  left: 20%;
+  height: 100%;
+  width: 40%;
+}
+
+ul{
+  margin-top: 50%;
 }

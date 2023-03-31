@@ -20,27 +20,34 @@ let miza = 1
 let increment = 1
 
 actiune.addEventListener("click",()=>{
-    if(sumaTotala<miza){alert("Lipsa fonduri!");return}
-    sumaTotala-=miza
-    afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
     let valoares11i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s11i.setAttribute("src","resurse/"+valoares11i+".png")
     let valoares12i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s12i.setAttribute("src","resurse/"+valoares12i+".png")
     let valoares13i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s13i.setAttribute("src","resurse/"+valoares13i+".png")
     let valoares21i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s21i.setAttribute("src","resurse/"+valoares21i+".png")
     let valoares22i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s22i.setAttribute("src","resurse/"+valoares22i+".png")
     let valoares23i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s23i.setAttribute("src","resurse/"+valoares23i+".png")
     let valoares31i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s31i.setAttribute("src","resurse/"+valoares31i+".png")
     let valoares32i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    s32i.setAttribute("src","resurse/"+valoares32i+".png")
     let valoares33i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
+    if ((valoares11i===valoares12i)&&(valoares12i===valoares13i)){
+        sumaTotala+= valoares11i*miza}
+    else if ((valoares21i===valoares22i)&&(valoares22i===valoares23i)){
+        sumaTotala+= valoares21i*miza}
+    else if ((valoares31i===valoares32i)&&(valoares32i===valoares33i)){
+        sumaTotala+= valoares31i*miza}
+    else (sumaTotala-=miza)
+    if(sumaTotala<miza){alert("Lipsa fonduri!");return}
+    afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
+    s11i.setAttribute("src","resurse/"+valoares11i+".png")
+    s12i.setAttribute("src","resurse/"+valoares12i+".png")
+    s13i.setAttribute("src","resurse/"+valoares13i+".png")
+    s21i.setAttribute("src","resurse/"+valoares21i+".png")
+    s22i.setAttribute("src","resurse/"+valoares22i+".png")
+    s23i.setAttribute("src","resurse/"+valoares23i+".png")
+    s31i.setAttribute("src","resurse/"+valoares31i+".png")
+    s32i.setAttribute("src","resurse/"+valoares32i+".png")
     s33i.setAttribute("src","resurse/"+valoares33i+".png")
+    console.log([valoares11i,valoares12i,valoares13i],[valoares21i,valoares22i,valoares23i],[valoares31i,valoares32i,valoares33i],sumaTotala)
 })
 cresteMiza.addEventListener("click",()=>{
     if(miza>=sumaTotala){return}

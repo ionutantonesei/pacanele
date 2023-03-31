@@ -134,12 +134,44 @@ img{
 .container-zona-pariu{
   display: flex;
   position: absolute;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-start;
   top: 10%;
   left: 5%;
-  height: 50%;
+  height: 80%;
   width: 20%;
   border: 1px solid red;
-  font-size: 2rem;
+  font-size: calc(14px + 0.35vw);
   list-style-type: none;
+}
+.container-informatii{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 10%;
+  left: 80%;
+  height: 80%;
+  width: 15%;
+  border: 1px solid red;
+  font-size: calc(10px + 0.25vw);
+  list-style-type: none;
+}
+.informatii-imagini{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 40%;
+}
+.informatii-valori{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 0%;
+  left: 40%;
+  height: 100%;
+  width: 40%;
 }

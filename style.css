@@ -83,7 +83,7 @@
   left: 5%;
   height: 30%;
   width: 10%;
-  font-size: calc(8px + 0.2vw);
+  font-size: calc(14px + 0.2vw);
 }
 #buton-scade-miza{
   position: absolute;
@@ -91,7 +91,7 @@
   left: 5%;
   height: 30%;
   width: 10%;
-  font-size: calc(8px + 0.2vw);
+  font-size: calc(14px + 0.2vw);
 }
 #buton-creste-miza10{
   position: absolute;
@@ -99,7 +99,7 @@
   left: 25%;
   height: 30%;
   width: 10%;
-  font-size: calc(8px + 0.2vw);
+  font-size: calc(14px + 0.2vw);
 }
 #buton-scade-miza10{
   position: absolute;
@@ -107,7 +107,7 @@
   left: 25%;
   height: 30%;
   width: 10%;
-  font-size: calc(8px + 0.2vw);
+  font-size: calc(14px + 0.2vw);
 }
 img{
   position: relative;

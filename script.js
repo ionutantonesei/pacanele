@@ -30,10 +30,16 @@ actiune.addEventListener("click",()=>{
     let valoares32i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
     let valoares33i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
     if ((valoares11i===valoares12i)&&(valoares12i===valoares13i)){
+        let sunet = new Audio("./resurse/sunete/"+valoares11i+".mp3")
+        sunet.play()
         sumaTotala+= valoares11i*miza}
     else if ((valoares21i===valoares22i)&&(valoares22i===valoares23i)){
+        let sunet = new Audio("./resurse/sunete/"+valoares22i+".mp3")
+        sunet.play()
         sumaTotala+= valoares21i*miza}
     else if ((valoares31i===valoares32i)&&(valoares32i===valoares33i)){
+        let sunet = new Audio("./resurse/sunete/"+valoares33i+".mp3")
+        sunet.play()
         sumaTotala+= valoares31i*miza}
     else (sumaTotala-=miza)
     if(sumaTotala<miza){alert("Lipsa fonduri!");return}

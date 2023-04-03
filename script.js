@@ -12,12 +12,19 @@ const cresteMiza = document.getElementById("buton-creste-miza")
 const scadeMiza = document.getElementById("buton-scade-miza")
 const cresteMiza10 = document.getElementById("buton-creste-miza10")
 const scadeMiza10 = document.getElementById("buton-scade-miza10")
+const afisareInformatii = document.getElementById("buton-afisare-informatii")
 const afisareSumaTotala = document.getElementById("afisareSumaTotala")
 const afisareSumaPariata = document.getElementById("afisareSumaPariata")
 const afisareLinii = document.getElementById("afisareLinii")
+const containerInformatii = document.getElementById("container-informatii")
 let sumaTotala = 100
 let miza = 1
 let increment = 1
+
+afisareInformatii.addEventListener("click",()=>{
+    if(containerInformatii.style.display === "flex"){containerInformatii.style.display = "none"}
+    else{containerInformatii.style.display = "flex"}
+})
 
 actiune.addEventListener("click",()=>{
     let valoares11i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())

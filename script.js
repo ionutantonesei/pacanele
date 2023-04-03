@@ -36,28 +36,28 @@ afisareInformatii.addEventListener("click",()=>{
 })
 
 actiune.addEventListener("click",()=>{
-    let valoares11i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares12i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares13i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares21i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares22i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares23i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares31i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares32i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    let valoares33i = Math.floor(Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random()+Math.random())
-    if ((valoares11i===valoares12i)&&(valoares12i===valoares13i)&&(sumaTotala>=miza)&&(linii > 0)){
+    let valoares11i = Math.floor(Math.random()*6+1)
+    let valoares12i = Math.floor(Math.random()*6+1)
+    let valoares13i = Math.floor(Math.random()*6+1)
+    let valoares21i = Math.floor(Math.random()*6+1)
+    let valoares22i = Math.floor(Math.random()*6+1)
+    let valoares23i = Math.floor(Math.random()*6+1)
+    let valoares31i = Math.floor(Math.random()*6+1)
+    let valoares32i = Math.floor(Math.random()*6+1)
+    let valoares33i = Math.floor(Math.random()*6+1)
+    if ((valoares11i===valoares12i)&&(valoares12i===valoares13i)&&(linii > 0)){
         let sunet = new Audio("./resurse/sunete/"+valoares11i+".mp3")
         sunet.play()
         sumaTotala+= Math.floor((valoares11i*miza*linii))}
-    else if ((valoares21i===valoares22i)&&(valoares22i===valoares23i)&&(sumaTotala>=miza)&&(linii > 1)){
+    else if ((valoares21i===valoares22i)&&(valoares22i===valoares23i)&&(linii > 1)){
         let sunet = new Audio("./resurse/sunete/"+valoares22i+".mp3")
         sunet.play()
         sumaTotala+= Math.floor((valoares21i*miza*linii))}
-    else if ((valoares31i===valoares32i)&&(valoares32i===valoares33i)&&(sumaTotala>=miza)&&(linii > 2)){
+    else if ((valoares31i===valoares32i)&&(valoares32i===valoares33i)&&(linii > 2)){
         let sunet = new Audio("./resurse/sunete/"+valoares33i+".mp3")
         sunet.play()
         sumaTotala+= Math.floor((valoares31i*miza*linii))}
-    else (sumaTotala-=miza*linii)
+    else (sumaTotala = sumaTotala-miza-linii)
     if(sumaTotala<miza){alert("Lipsa fonduri!");return}
     afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
     s11i.setAttribute("src","resurse/"+valoares11i+".png")

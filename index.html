@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
+<meta name = "viewport" content = "width = device-width,initial-scale=1.0">
 <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-<div id = "container-background">
-<div class = "ecran_pacanea" id = "container_principal1">
+<div class = "ecran_pacanea" id = "container_principal">
   <div class = "simbol" id = "s11">
       <img src = "resurse/1.png" id = "s11i">  
   </div>
@@ -33,19 +33,20 @@
       <img src = "resurse/7.png" id = "s33i">
     </div>
   </div>
-</div>
 <div class="container-butoane" id="butoane">
   <button name = "spin" type = "button" class = "buton" id = "buton-start"></button>
   <button name = "creste miza" type = "button" class = "buton" id = "buton-creste-miza">+1 RON</button>
   <button name = "scade miza" type = "button" class = "buton" id = "buton-scade-miza">-1 RON</button>
   <button name = "creste miza10" type = "button" class = "buton" id = "buton-creste-miza10">+10 RON</button>
   <button name = "scade miza10" type = "button" class = "buton" id = "buton-scade-miza10">-10 RON</button>
+  <button name = "creste nr linii" type = "button" class = "buton" id = "buton-creste-linii">+1 linie</button>
+  <button name = "scade nr linii" type = "button" class = "buton" id = "buton-scade-linii">-1 linie</button>
   <button name = "afisare informatii" type = "button" class = "buton" id = "buton-afisare-informatii">INFO</button>
 </div>
 <div class = "container-zona-pariu">
   <span id = "afisareSumaTotala">Suma totala: 100 RON</span>
   <span id = "afisareSumaPariata">Suma pariata: 1 RON</span>
-  <span id = "afisareLinii">Linii: 10</span>
+  <span id = "afisareLinii">Linii: 3</span>
 </div>
 <div id = "container-informatii">
   <div class = "informatii-imagini">
@@ -58,13 +59,13 @@
     <img src = "resurse/7.png" id = "imagine7">
   </div>
   <div class = "informatii-valori">
-    <span id = "informatie-imagine1">1 leu X miza</span>
-    <span id = "informatie-imagine2">2 lei X miza</span>
-    <span id = "informatie-imagine3">3 lei X miza</span>
-    <span id = "informatie-imagine4">4 lei X miza</span>
-    <span id = "informatie-imagine5">5 lei X miza</span>
-    <span id = "informatie-imagine6">6 lei X miza</span>
-    <span id = "informatie-imagine7">7 lei X miza</span>
+    <span id = "informatie-imagine1">1 leu X miza X linia</span>
+    <span id = "informatie-imagine2">2 lei X miza X linia</span>
+    <span id = "informatie-imagine3">3 lei X miza X linia</span>
+    <span id = "informatie-imagine4">4 lei X miza X linia</span>
+    <span id = "informatie-imagine5">5 lei X miza X linia</span>
+    <span id = "informatie-imagine6">6 lei X miza X linia</span>
+    <span id = "informatie-imagine7">7 lei X miza X linia</span>
   </div>
 </div>
 <script src="script.js"></script>

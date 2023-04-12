@@ -14,15 +14,20 @@ const cresteMiza10 = document.getElementById("buton-creste-miza10")
 const scadeMiza10 = document.getElementById("buton-scade-miza10")
 const cresteLinii = document.getElementById("buton-creste-linii")
 const scadeLinii = document.getElementById("buton-scade-linii")
+const retrageSuma = document.getElementById("buton-retragere-suma")
 const afisareInformatii = document.getElementById("buton-afisare-informatii")
 const afisareSumaTotala = document.getElementById("afisareSumaTotala")
 const afisareSumaPariata = document.getElementById("afisareSumaPariata")
 const afisareLinii = document.getElementById("afisareLinii")
 const containerInformatii = document.getElementById("container-informatii")
-const containerPrincipal = document.getElementById("container_principal");
-let sumaTotala = 100
+const containerPrincipal = document.getElementById("container_principal")
+let sumaTotala
+let sumaRetrasa = localStorage.getItem("sumatotala")
+if (sumaRetrasa === null){sumaTotala = 100}
+else {sumaTotala = sumaRetrasa}
 let miza = 1
 let linii = 3
+afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
 
 afisareInformatii.addEventListener("click",()=>{
     if(containerInformatii.style.display === "flex"){
@@ -45,19 +50,24 @@ actiune.addEventListener("click",()=>{
     let valoares31i = Math.floor(Math.random()*6+1)
     let valoares32i = Math.floor(Math.random()*6+1)
     let valoares33i = Math.floor(Math.random()*6+1)
+    localStorage.setItem("sumatotala",sumaTotala)
     if ((valoares11i===valoares12i)&&(valoares12i===valoares13i)&&(linii > 0)){
         let sunet = new Audio("./resurse/sunete/"+valoares11i+".mp3")
         sunet.play()
-        sumaTotala+= Math.floor((valoares11i*miza*linii))}
+        sumaTotala+= Math.floor((valoares11i*miza*linii))
+        localStorage.setItem("sumatotala",sumaTotala)}
     else if ((valoares21i===valoares22i)&&(valoares22i===valoares23i)&&(linii > 1)){
         let sunet = new Audio("./resurse/sunete/"+valoares22i+".mp3")
         sunet.play()
-        sumaTotala+= Math.floor((valoares21i*miza*linii))}
+        sumaTotala+= Math.floor((valoares21i*miza*linii))
+        localStorage.setItem("sumatotala",sumaTotala)}
     else if ((valoares31i===valoares32i)&&(valoares32i===valoares33i)&&(linii > 2)){
         let sunet = new Audio("./resurse/sunete/"+valoares33i+".mp3")
         sunet.play()
-        sumaTotala+= Math.floor((valoares31i*miza*linii))}
-    else (sumaTotala = sumaTotala-miza-linii)
+        sumaTotala+= Math.floor((valoares31i*miza*linii))
+        localStorage.setItem("sumatotala",sumaTotala)}
+    else {sumaTotala = sumaTotala-miza-linii
+        localStorage.setItem("sumatotala",sumaTotala)}
     if(sumaTotala<miza){alert("Lipsa fonduri!");return}
     afisareSumaTotala.innerHTML = "Suma totala: " + sumaTotala + " RON"
     s11i.setAttribute("src","resurse/"+valoares11i+".png")
@@ -105,4 +115,7 @@ scadeLinii.addEventListener("click",()=>{
         afisareLinii.innerHTML = "Linii: " + linii
     }
     else return
+})
+retrageSuma.addEventListener("click",()=>{
+    sumaRetrasa = localStorage.getItem("sumatotala")
 })

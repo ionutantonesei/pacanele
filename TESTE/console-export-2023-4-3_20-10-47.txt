@@ -1,0 +1,393 @@
+GEThttps://ionutantonesei.github.io/favicon.ico
+[HTTP/2 404 Not Found 0ms]
+
+Array(3) [ 5, 4, 5 ]
+ 
+Array(3) [ 4, 2, 3 ]
+ 
+Array(3) [ 6, 4, 6 ]
+ 98 script.js:72:13
+Array(3) [ 5, 6, 1 ]
+ 
+Array(3) [ 6, 2, 1 ]
+ 
+Array(3) [ 5, 1, 5 ]
+ 96 script.js:72:13
+Array(3) [ 5, 5, 5 ]
+ 
+Array(3) [ 5, 5, 3 ]
+ 
+Array(3) [ 6, 2, 6 ]
+ 101 script.js:72:13
+Array(3) [ 2, 6, 6 ]
+ 
+Array(3) [ 3, 6, 1 ]
+ 
+Array(3) [ 4, 3, 2 ]
+ 99 script.js:72:13
+Array(3) [ 3, 6, 3 ]
+ 
+Array(3) [ 2, 2, 1 ]
+ 
+Array(3) [ 2, 1, 4 ]
+ 97 script.js:72:13
+Array(3) [ 3, 5, 4 ]
+ 
+Array(3) [ 5, 2, 2 ]
+ 
+Array(3) [ 1, 4, 2 ]
+ 95 script.js:72:13
+Array(3) [ 2, 2, 3 ]
+ 
+Array(3) [ 5, 5, 1 ]
+ 
+Array(3) [ 6, 4, 1 ]
+ 93 script.js:72:13
+Array(3) [ 3, 2, 6 ]
+ 
+Array(3) [ 4, 3, 4 ]
+ 
+Array(3) [ 6, 6, 6 ]
+ 91 script.js:72:13
+Array(3) [ 6, 1, 1 ]
+ 
+Array(3) [ 3, 3, 6 ]
+ 
+Array(3) [ 4, 3, 3 ]
+ 89 script.js:72:13
+Array(3) [ 3, 5, 4 ]
+ 
+Array(3) [ 4, 6, 4 ]
+ 
+Array(3) [ 1, 3, 5 ]
+ 87 script.js:72:13
+Array(3) [ 3, 3, 5 ]
+ 
+Array(3) [ 3, 2, 2 ]
+ 
+Array(3) [ 3, 1, 4 ]
+ 85 script.js:72:13
+Array(3) [ 1, 1, 2 ]
+ 
+Array(3) [ 6, 3, 5 ]
+ 
+Array(3) [ 4, 3, 2 ]
+ 83 script.js:72:13
+Array(3) [ 4, 2, 5 ]
+ 
+Array(3) [ 3, 3, 1 ]
+ 
+Array(3) [ 4, 3, 1 ]
+ 81 script.js:72:13
+Array(3) [ 4, 4, 5 ]
+ 
+Array(3) [ 4, 2, 5 ]
+ 
+Array(3) [ 6, 3, 2 ]
+ 79 script.js:72:13
+Array(3) [ 6, 3, 1 ]
+ 
+Array(3) [ 4, 1, 5 ]
+ 
+Array(3) [ 6, 4, 3 ]
+ 77 script.js:72:13
+Array(3) [ 2, 4, 5 ]
+ 
+Array(3) [ 6, 5, 6 ]
+ 
+Array(3) [ 6, 2, 3 ]
+ 75 script.js:72:13
+Array(3) [ 1, 3, 5 ]
+ 
+Array(3) [ 1, 3, 4 ]
+ 
+Array(3) [ 6, 6, 4 ]
+ 73 script.js:72:13
+Array(3) [ 2, 2, 3 ]
+ 
+Array(3) [ 5, 1, 2 ]
+ 
+Array(3) [ 6, 1, 5 ]
+ 71 script.js:72:13
+Array(3) [ 1, 4, 4 ]
+ 
+Array(3) [ 2, 1, 6 ]
+ 
+Array(3) [ 5, 6, 5 ]
+ 69 script.js:72:13
+Array(3) [ 1, 5, 1 ]
+ 
+Array(3) [ 6, 3, 2 ]
+ 
+Array(3) [ 2, 2, 6 ]
+ 67 script.js:72:13
+Array(3) [ 2, 3, 1 ]
+ 
+Array(3) [ 2, 1, 5 ]
+ 
+Array(3) [ 5, 4, 4 ]
+ 65 script.js:72:13
+Array(3) [ 6, 3, 3 ]
+ 
+Array(3) [ 2, 6, 5 ]
+ 
+Array(3) [ 1, 3, 1 ]
+ 63 script.js:72:13
+Array(3) [ 4, 2, 1 ]
+ 
+Array(3) [ 6, 3, 5 ]
+ 
+Array(3) [ 3, 1, 3 ]
+ 61 script.js:72:13
+Array(3) [ 5, 2, 4 ]
+ 
+Array(3) [ 4, 5, 1 ]
+ 
+Array(3) [ 5, 3, 3 ]
+ 59 script.js:72:13
+Array(3) [ 4, 1, 2 ]
+ 
+Array(3) [ 5, 4, 2 ]
+ 
+Array(3) [ 1, 5, 4 ]
+ 57 script.js:72:13
+Array(3) [ 5, 3, 1 ]
+ 
+Array(3) [ 5, 2, 2 ]
+ 
+Array(3) [ 6, 6, 1 ]
+ 55 script.js:72:13
+Array(3) [ 6, 5, 1 ]
+ 
+Array(3) [ 6, 6, 6 ]
+ 
+Array(3) [ 2, 2, 4 ]
+ 53 script.js:72:13
+Array(3) [ 6, 4, 4 ]
+ 
+Array(3) [ 1, 5, 3 ]
+ 
+Array(3) [ 2, 3, 4 ]
+ 51 script.js:72:13
+Array(3) [ 1, 2, 2 ]
+ 
+Array(3) [ 3, 2, 4 ]
+ 
+Array(3) [ 1, 3, 2 ]
+ 49 script.js:72:13
+Array(3) [ 3, 2, 2 ]
+ 
+Array(3) [ 6, 4, 3 ]
+ 
+Array(3) [ 3, 1, 4 ]
+ 47 script.js:72:13
+Array(3) [ 5, 3, 3 ]
+ 
+Array(3) [ 6, 3, 2 ]
+ 
+Array(3) [ 2, 2, 4 ]
+ 45 script.js:72:13
+Array(3) [ 6, 3, 4 ]
+ 
+Array(3) [ 3, 4, 4 ]
+ 
+Array(3) [ 2, 5, 3 ]
+ 43 script.js:72:13
+Array(3) [ 6, 6, 4 ]
+ 
+Array(3) [ 6, 5, 2 ]
+ 
+Array(3) [ 2, 6, 4 ]
+ 41 script.js:72:13
+Array(3) [ 5, 6, 6 ]
+ 
+Array(3) [ 4, 1, 1 ]
+ 
+Array(3) [ 6, 2, 1 ]
+ 39 script.js:72:13
+Array(3) [ 5, 6, 4 ]
+ 
+Array(3) [ 2, 5, 1 ]
+ 
+Array(3) [ 4, 2, 3 ]
+ 37 script.js:72:13
+Array(3) [ 2, 4, 6 ]
+ 
+Array(3) [ 5, 2, 5 ]
+ 
+Array(3) [ 4, 5, 2 ]
+ 35 script.js:72:13
+Array(3) [ 4, 5, 4 ]
+ 
+Array(3) [ 5, 2, 6 ]
+ 
+Array(3) [ 2, 1, 4 ]
+ 33 script.js:72:13
+Array(3) [ 6, 1, 6 ]
+ 
+Array(3) [ 1, 2, 2 ]
+ 
+Array(3) [ 1, 1, 1 ]
+ 31 script.js:72:13
+Array(3) [ 3, 3, 3 ]
+ 
+Array(3) [ 6, 1, 1 ]
+ 
+Array(3) [ 3, 3, 4 ]
+ 34 script.js:72:13
+Array(3) [ 1, 5, 6 ]
+ 
+Array(3) [ 4, 2, 2 ]
+ 
+Array(3) [ 1, 5, 2 ]
+ 32 script.js:72:13
+Array(3) [ 1, 6, 2 ]
+ 
+Array(3) [ 1, 4, 5 ]
+ 
+Array(3) [ 5, 2, 1 ]
+ 30 script.js:72:13
+Array(3) [ 2, 3, 5 ]
+ 
+Array(3) [ 2, 6, 3 ]
+ 
+Array(3) [ 6, 2, 2 ]
+ 28 script.js:72:13
+Array(3) [ 3, 3, 1 ]
+ 
+Array(3) [ 5, 2, 2 ]
+ 
+Array(3) [ 2, 5, 3 ]
+ 26 script.js:72:13
+Array(3) [ 2, 4, 2 ]
+ 
+Array(3) [ 4, 2, 5 ]
+ 
+Array(3) [ 4, 1, 2 ]
+ 24 script.js:72:13
+Array(3) [ 2, 2, 2 ]
+ 
+Array(3) [ 3, 5, 1 ]
+ 
+Array(3) [ 2, 1, 1 ]
+ 26 script.js:72:13
+Array(3) [ 1, 6, 6 ]
+ 
+Array(3) [ 4, 6, 5 ]
+ 
+Array(3) [ 5, 1, 1 ]
+ 24 script.js:72:13
+Array(3) [ 6, 3, 3 ]
+ 
+Array(3) [ 1, 2, 4 ]
+ 
+Array(3) [ 5, 1, 2 ]
+ 22 script.js:72:13
+Array(3) [ 1, 1, 4 ]
+ 
+Array(3) [ 4, 1, 2 ]
+ 
+Array(3) [ 2, 5, 4 ]
+ 20 script.js:72:13
+Array(3) [ 1, 2, 4 ]
+ 
+Array(3) [ 1, 5, 2 ]
+ 
+Array(3) [ 6, 5, 6 ]
+ 18 script.js:72:13
+Array(3) [ 2, 2, 2 ]
+ 
+Array(3) [ 5, 6, 6 ]
+ 
+Array(3) [ 2, 1, 4 ]
+ 20 script.js:72:13
+Array(3) [ 1, 3, 1 ]
+ 
+Array(3) [ 6, 6, 6 ]
+ 
+Array(3) [ 3, 3, 5 ]
+ 18 script.js:72:13
+Array(3) [ 4, 3, 1 ]
+ 
+Array(3) [ 2, 6, 5 ]
+ 
+Array(3) [ 1, 3, 6 ]
+ 16 script.js:72:13
+Array(3) [ 3, 1, 5 ]
+ 
+Array(3) [ 3, 6, 2 ]
+ 
+Array(3) [ 1, 3, 4 ]
+ 14 script.js:72:13
+Array(3) [ 6, 6, 6 ]
+ 
+Array(3) [ 2, 3, 6 ]
+ 
+Array(3) [ 4, 1, 5 ]
+ 20 script.js:72:13
+Array(3) [ 5, 4, 1 ]
+ 
+Array(3) [ 6, 5, 5 ]
+ 
+Array(3) [ 6, 6, 1 ]
+ 18 script.js:72:13
+Array(3) [ 5, 6, 3 ]
+ 
+Array(3) [ 2, 4, 6 ]
+ 
+Array(3) [ 1, 5, 3 ]
+ 16 script.js:72:13
+Array(3) [ 4, 1, 6 ]
+ 
+Array(3) [ 5, 2, 1 ]
+ 
+Array(3) [ 6, 1, 6 ]
+ 14 script.js:72:13
+Array(3) [ 4, 6, 6 ]
+ 
+Array(3) [ 5, 2, 2 ]
+ 
+Array(3) [ 3, 3, 4 ]
+ 12 script.js:72:13
+Array(3) [ 4, 3, 2 ]
+ 
+Array(3) [ 4, 2, 6 ]
+ 
+Array(3) [ 6, 6, 6 ]
+ 10 script.js:72:13
+Array(3) [ 1, 3, 1 ]
+ 
+Array(3) [ 2, 4, 5 ]
+ 
+Array(3) [ 1, 6, 3 ]
+ 8 script.js:72:13
+Array(3) [ 1, 2, 5 ]
+ 
+Array(3) [ 6, 3, 4 ]
+ 
+Array(3) [ 6, 1, 2 ]
+ 6 script.js:72:13
+Array(3) [ 3, 6, 4 ]
+ 
+Array(3) [ 2, 6, 2 ]
+ 
+Array(3) [ 6, 5, 3 ]
+ 4 script.js:72:13
+Array(3) [ 3, 4, 2 ]
+ 
+Array(3) [ 2, 4, 5 ]
+ 
+Array(3) [ 2, 2, 2 ]
+ 2 script.js:72:13
+Array(3) [ 2, 2, 2 ]
+ 
+Array(3) [ 3, 2, 4 ]
+ 
+Array(3) [ 6, 4, 2 ]
+ 4 script.js:72:13
+Array(3) [ 3, 4, 5 ]
+ 
+Array(3) [ 1, 4, 3 ]
+ 
+Array(3) [ 1, 4, 1 ]
+ 2 script.js:72:13
